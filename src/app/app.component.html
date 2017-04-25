@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+<br>
+
+<input type='number' [(ngModel)]="numForInput"/> 
+<button (click)="genNumWithComma()">submit</button>
+<br><br><br>
+
+<span>Display number: {{numForDisplay}}</span>
